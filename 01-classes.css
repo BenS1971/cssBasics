@@ -19,5 +19,5 @@ body {
 }
 /*rule set #5: ALl of the li items within the css-class will have a blue font. */
 .css-class li{
-    color: navy;
+    color: fuchsia;
 }

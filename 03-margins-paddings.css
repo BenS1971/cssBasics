@@ -23,7 +23,7 @@
 p {
     /*We can also modify the other parts of the box model, such as height and width */
     height: 40px;
-    background-color: blue;
+    background-color: dodgerblue;
     color: white;
 
     /*This syntax is also shorthand and replaces the following: */
