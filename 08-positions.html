@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./08-positions.css">
+    <title>Positions</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav"><p>This div has a fixed position.</p></div>
+        <div class="positioning">
+            <h1>Position</h1>
+            <p>The position property specifies the type of positioning method used for an element.</p>
+            <p>The position values are:</p>
+            <ul>
+                <li><strong>Fixed:</strong> this will pin anything to a spot and it will stay there as the user scrolls. (ex. nav bars) Fixed position takes elements out of the normal document flow. </li>
+                <li><strong>Static:</strong> this is the default setting. It is not affected by top, bottom, left, and right properties. It is always positioned according to the normal flow of the page.</li>
+                <li><strong>Relative:</strong> does not take the element out of the normal document flow. Still appears within its space/dic/container, but allows it to be offset a bit from the top, bottom, right, and left. These properties will move it away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</li>
+                <li><strong>Absolute:</strong> takes elements out of the normal document flow. If a parent element position is set to relative, and the child element is set to absolute, the child element's new (0,0) coordinate will be the upper left hand corner of the parent element instead of the whole page.</li>
+            </ul>
+            <p>The <strong>z-index</strong> property allows you to override the normal stacking order of the page. The default z-index is 0, and you can set that value to be positive or negative. An element with a greater z-index will stack in front of an element with the lower z-index. If the two elements have the same z-index, or don't have one assigned, the element positioned last in the HTML will show on top. You must have a position assigned in order to assign a z-index.</p>
+        </div>
+        <div class="lotsoftext">
+            <h2>Here is some text that you can scroll and see the div with a fixed position stay where it is told to.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deserunt at eligendi quidem nihil eius voluptates assumenda illum omnis corrupti, ratione nam esse sunt vel quod voluptatem, velit laboriosam deleniti?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente nihil accusantium id soluta repellat, maiores alias repellendus delectus, natus quasi in recusandae tenetur temporibus nobis molestiae a vel officiis?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore delectus incidunt impedit. Aperiam id quasi temporibus enim alias sunt quia rerum nulla deserunt qui tempore, obcaecati soluta, odit necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ad et commodi necessitatibus labore animi explicabo quisquam corrupti? Deserunt dolores aut ducimus facere exercitationem at est! Autem facere tempora veniam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quod reprehenderit alias delectus, deleniti voluptas quam repellat nam dignissimos quis repellendus impedit amet ipsum a totam commodi dolore modi non?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ad laboriosam in, dolorum incidunt qui eum? Unde incidunt nihil nobis necessitatibus magnam animi vero vel, nisi temporibus! Cupiditate, est laboriosam.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eos recusandae, eius iste aliquid pariatur modi inventore deserunt blanditiis quidem tenetur ab laudantium animi. Ducimus fuga rerum impedit enim molestiae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque, eius illo asperiores quibusdam suscipit molestiae repudiandae beatae, vitae modi, debitis voluptatibus perferendis numquam aliquid maxime voluptas pariatur corrupti? Minima!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt eos dicta, quaerat enim voluptas, explicabo exercitationem numquam, officiis maiores voluptatibus omnis? Iusto esse earum maiores nobis accusamus aperiam maxime at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquam iste distinctio ipsa quia odit et, placeat repudiandae maiores consectetur sunt eligendi velit quos itaque quod, obcaecati sapiente. Eius, cupiditate!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium consectetur a necessitatibus molestias dolores aspernatur, doloribus nam, neque aliquid tempore, laboriosam obcaecati qui. Aliquid necessitatibus quam illum cupiditate laboriosam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis ad praesentium aspernatur distinctio veniam voluptate sed consequuntur maxime suscipit? Odio velit debitis voluptas? Minima reprehenderit asperiores obcaecati illo, sapiente vitae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatibus dolor architecto necessitatibus qui fugit obcaecati possimus itaque reprehenderit nihil sapiente sit similique provident laboriosam, inventore voluptatem neque? Consequatur, nam!</p>
+        </div>
+    </div>
+</body>
+</html>
